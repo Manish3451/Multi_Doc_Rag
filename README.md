@@ -32,7 +32,6 @@ The system retrieves relevant document chunks using vector search and generates 
                  │   Streamlit UI  │
                  └─────────────────┘
 ```
-```
 ## Project Structure
 
 ```
