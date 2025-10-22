@@ -6,33 +6,6 @@ This project is a **Multi-Document Retrieval-Augmented Generation (RAG) System**
 Users can upload multiple documents (PDF, TXT, or DOCX), enter their own OpenAI API key, and ask questions.
 The system retrieves relevant document chunks using vector search and generates answers using OpenAI models.
 ```
-            ┌───────────────────────────┐
-            │       User Query          │
-            └────────────┬──────────────┘
-                         │
-                 (1) Retrieve Context
-                         │
-          ┌──────────────┴──────────────┐
-          │       Vector Database       │
-          │        (ChromaDB)           │
-          └──────────────┬──────────────┘
-                         │
-                 (2) Top-k Chunks
-                         │
-                 (3) Pass to LLM
-                         │
-          ┌──────────────┴──────────────┐
-          │     ChatOpenAI / GPT        │
-          └──────────────┬──────────────┘
-                         │
-                 (4) Final Answer
-                         │
-                 ┌────────▼────────┐
-                 │   Streamlit UI  │
-                 └─────────────────┘
-
-```
-```
 ```
 ## Project Structure
 
