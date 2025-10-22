@@ -5,8 +5,9 @@
 This project is a **Multi-Document Retrieval-Augmented Generation (RAG) System** built using **Streamlit**, **LangChain**, **OpenAI Embeddings**, and **ChromaDB**.
 Users can upload multiple documents (PDF, TXT, or DOCX), enter their own OpenAI API key, and ask questions.
 The system retrieves relevant document chunks using vector search and generates answers using OpenAI models.
-```
-```
+
+---
+
 ## Project Structure
 
 ```
